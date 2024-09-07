@@ -43,8 +43,8 @@ class MainScreen extends StatelessWidget {
         ),
       ),
       body: Container(
-        padding: const EdgeInsets.all(5),
-        margin: const EdgeInsets.all(7),
+        padding: const EdgeInsets.all(3),
+        margin: const EdgeInsets.all(3),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
           color: Colors.black,
