@@ -1,0 +1,37 @@
+name: api_app
+description: "A new Flutter project."
+
+publish_to: 'none'  # Keep this as none for private packages
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'  # This is compatible with more Dart versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6  # For iOS style icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0  # Good coding practice lints
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/gold.png
+    - assets/images/silver.png
+
+  # Custom fonts example (uncomment and add your fonts if needed)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
